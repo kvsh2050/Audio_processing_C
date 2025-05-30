@@ -13,3 +13,15 @@ Debugger                 : gdb
 Signal Processing Library: FFTW, Libsndfile  
 ```
 
+### Dependencies for Linux
+
+- Install ALSA development libraries:
+  ```bash
+  sudo apt-get install libasound-dev
+  ```
+
+- After downloading PortAudio:
+  ```bash
+  ./configure && make
+  ```
+
