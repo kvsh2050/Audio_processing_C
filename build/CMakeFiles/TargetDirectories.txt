@@ -1,0 +1,3 @@
+/home/kavyashree/Desktop/sound_creation_c/Audio_processing_C/build/CMakeFiles/Hello_test.dir
+/home/kavyashree/Desktop/sound_creation_c/Audio_processing_C/build/CMakeFiles/edit_cache.dir
+/home/kavyashree/Desktop/sound_creation_c/Audio_processing_C/build/CMakeFiles/rebuild_cache.dir
