@@ -24,4 +24,4 @@ Signal Processing Library: FFTW, Libsndfile
   ```bash
   ./configure && make
   ```
-
+https://en.ittrip.xyz/c-language/c-audio-library-dev 
