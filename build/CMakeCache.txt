@@ -224,6 +224,24 @@ Hello_test_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Hello_test_SOURCE_DIR:STATIC=/home/kavyashree/Desktop/sound_creation_c/Audio_processing_C
 
+//Arguments to supply to pkg-config
+PKG_CONFIG_ARGN:STRING=
+
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
+//Path to a library.
+pkgcfg_lib_PORTAUDIO_asound:FILEPATH=/usr/lib/x86_64-linux-gnu/libasound.so
+
+//Path to a library.
+pkgcfg_lib_PORTAUDIO_m:FILEPATH=/usr/lib/x86_64-linux-gnu/libm.so
+
+//Path to a library.
+pkgcfg_lib_PORTAUDIO_portaudio:FILEPATH=/usr/lib/x86_64-linux-gnu/libportaudio.so
+
+//Path to a library.
+pkgcfg_lib_PORTAUDIO_pthread:FILEPATH=/usr/lib/x86_64-linux-gnu/libpthread.a
+
 
 ########################
 # INTERNAL cache entries
@@ -376,4 +394,56 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.2()]
+//ADVANCED property for variable: PKG_CONFIG_ARGN
+PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+PORTAUDIO_CFLAGS:INTERNAL=-pthread;-I/usr/include
+PORTAUDIO_CFLAGS_I:INTERNAL=
+PORTAUDIO_CFLAGS_OTHER:INTERNAL=-pthread
+PORTAUDIO_FOUND:INTERNAL=1
+PORTAUDIO_INCLUDEDIR:INTERNAL=/usr/include
+PORTAUDIO_INCLUDE_DIRS:INTERNAL=/usr/include
+PORTAUDIO_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lportaudio;-lasound;-lm;-lpthread
+PORTAUDIO_LDFLAGS_OTHER:INTERNAL=
+PORTAUDIO_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+PORTAUDIO_LIBRARIES:INTERNAL=portaudio;asound;m;pthread
+PORTAUDIO_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+PORTAUDIO_LIBS:INTERNAL=
+PORTAUDIO_LIBS_L:INTERNAL=
+PORTAUDIO_LIBS_OTHER:INTERNAL=
+PORTAUDIO_LIBS_PATHS:INTERNAL=
+PORTAUDIO_MODULE_NAME:INTERNAL=portaudio-2.0
+PORTAUDIO_PREFIX:INTERNAL=/usr
+PORTAUDIO_STATIC_CFLAGS:INTERNAL=-pthread;-I/usr/include
+PORTAUDIO_STATIC_CFLAGS_I:INTERNAL=
+PORTAUDIO_STATIC_CFLAGS_OTHER:INTERNAL=-pthread
+PORTAUDIO_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include
+PORTAUDIO_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lportaudio;-lasound;-lm;-lpthread
+PORTAUDIO_STATIC_LDFLAGS_OTHER:INTERNAL=
+PORTAUDIO_STATIC_LIBDIR:INTERNAL=
+PORTAUDIO_STATIC_LIBRARIES:INTERNAL=portaudio;asound;m;pthread
+PORTAUDIO_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+PORTAUDIO_STATIC_LIBS:INTERNAL=
+PORTAUDIO_STATIC_LIBS_L:INTERNAL=
+PORTAUDIO_STATIC_LIBS_OTHER:INTERNAL=
+PORTAUDIO_STATIC_LIBS_PATHS:INTERNAL=
+PORTAUDIO_VERSION:INTERNAL=19
+PORTAUDIO_portaudio-2.0_INCLUDEDIR:INTERNAL=
+PORTAUDIO_portaudio-2.0_LIBDIR:INTERNAL=
+PORTAUDIO_portaudio-2.0_PREFIX:INTERNAL=
+PORTAUDIO_portaudio-2.0_VERSION:INTERNAL=
+__pkg_config_arguments_PORTAUDIO:INTERNAL=REQUIRED;portaudio-2.0
+__pkg_config_checked_PORTAUDIO:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_PORTAUDIO_asound
+pkgcfg_lib_PORTAUDIO_asound-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_PORTAUDIO_m
+pkgcfg_lib_PORTAUDIO_m-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_PORTAUDIO_portaudio
+pkgcfg_lib_PORTAUDIO_portaudio-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_PORTAUDIO_pthread
+pkgcfg_lib_PORTAUDIO_pthread-ADVANCED:INTERNAL=1
+prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
 

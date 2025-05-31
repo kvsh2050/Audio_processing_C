@@ -24,7 +24,7 @@ Signal Processing Library: FFTW, Libsndfile
   ```bash
   ./configure && make
   ```
-https://en.ittrip.xyz/c-language/c-audio-library-dev 
+
 
 ### Cmake Folder Structure 
 ```
@@ -69,3 +69,18 @@ target_link_libraries(MyProject mylib)
 add_executable(test_runner tests/test_main.c)
 target_link_libraries(test_runner mylib)
 ```
+
+## Project overview
+
+Voice Changer in C !!!
+
+Takes in Voice input change or modify the voice, and play the voice back! 
+
+It is done in General Purpose Ubuntu 22.04 OS though, Eventhough I want to Implement in Embedded hardware, till I get Hardware I am gonna try out in my laptop
+
+
+## References
+
+1. https://en.ittrip.xyz/c-language/c-audio-library-dev  
+
+
