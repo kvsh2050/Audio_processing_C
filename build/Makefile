@@ -124,41 +124,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Hello_test
+# Target rules for targets named main
 
 # Build rule for target.
-Hello_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hello_test
-.PHONY : Hello_test
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-Hello_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_test.dir/build.make CMakeFiles/Hello_test.dir/build
-.PHONY : Hello_test/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
-AudioLibrary/cmake_test.o: AudioLibrary/cmake_test.c.o
-.PHONY : AudioLibrary/cmake_test.o
+AudioLibrary/main.o: AudioLibrary/main.c.o
+.PHONY : AudioLibrary/main.o
 
 # target to build an object file
-AudioLibrary/cmake_test.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_test.dir/build.make CMakeFiles/Hello_test.dir/AudioLibrary/cmake_test.c.o
-.PHONY : AudioLibrary/cmake_test.c.o
+AudioLibrary/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AudioLibrary/main.c.o
+.PHONY : AudioLibrary/main.c.o
 
-AudioLibrary/cmake_test.i: AudioLibrary/cmake_test.c.i
-.PHONY : AudioLibrary/cmake_test.i
+AudioLibrary/main.i: AudioLibrary/main.c.i
+.PHONY : AudioLibrary/main.i
 
 # target to preprocess a source file
-AudioLibrary/cmake_test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_test.dir/build.make CMakeFiles/Hello_test.dir/AudioLibrary/cmake_test.c.i
-.PHONY : AudioLibrary/cmake_test.c.i
+AudioLibrary/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AudioLibrary/main.c.i
+.PHONY : AudioLibrary/main.c.i
 
-AudioLibrary/cmake_test.s: AudioLibrary/cmake_test.c.s
-.PHONY : AudioLibrary/cmake_test.s
+AudioLibrary/main.s: AudioLibrary/main.c.s
+.PHONY : AudioLibrary/main.s
 
 # target to generate assembly for a file
-AudioLibrary/cmake_test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hello_test.dir/build.make CMakeFiles/Hello_test.dir/AudioLibrary/cmake_test.c.s
-.PHONY : AudioLibrary/cmake_test.c.s
+AudioLibrary/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/AudioLibrary/main.c.s
+.PHONY : AudioLibrary/main.c.s
 
 # Help Target
 help:
@@ -169,10 +169,10 @@ help:
 	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Hello_test"
-	@echo "... AudioLibrary/cmake_test.o"
-	@echo "... AudioLibrary/cmake_test.i"
-	@echo "... AudioLibrary/cmake_test.s"
+	@echo "... main"
+	@echo "... AudioLibrary/main.o"
+	@echo "... AudioLibrary/main.i"
+	@echo "... AudioLibrary/main.s"
 .PHONY : help
 
 

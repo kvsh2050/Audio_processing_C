@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/main.dir/AudioLibrary/main.c.o -o main  -lportaudio -lasound -lm -lpthread

@@ -13,5 +13,5 @@ link_directories(${PORTAUDIO_LIBRARY_DIRS})
 
 
 file(GLOB SOURCES "AudioLibrary/*.c")
-add_executable(Hello_test ${SOURCES})
-target_link_libraries(Hello_test ${PORTAUDIO_LIBRARIES})
+add_executable(main ${SOURCES})
+target_link_libraries(main ${PORTAUDIO_LIBRARIES})

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kavyashree/Desktop/sound_creation_c/Audio_processing_C/AudioLibrary/cmake_test.c" "CMakeFiles/Hello_test.dir/AudioLibrary/cmake_test.c.o" "gcc" "CMakeFiles/Hello_test.dir/AudioLibrary/cmake_test.c.o.d"
+  "/home/kavyashree/Desktop/sound_creation_c/Audio_processing_C/AudioLibrary/main.c" "CMakeFiles/main.dir/AudioLibrary/main.c.o" "gcc" "CMakeFiles/main.dir/AudioLibrary/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
